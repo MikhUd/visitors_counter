@@ -10,7 +10,7 @@ class DatabaseConnector {
     {
         $dbConfig['dsn'] = 'mysql:dbname=stats;host=localhost;port=3306;charset=UTF8';
         $dbConfig['username'] = 'root';
-        $dbConfig['password'] = '89045781364Vbif';
+        $dbConfig['password'] = '';
         $dbConfig['options'] = [
             \PDO::ATTR_ERRMODE => \PDO::ERRMODE_EXCEPTION,
         ];
